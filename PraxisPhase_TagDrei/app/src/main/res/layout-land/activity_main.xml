@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/layout_horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:id="@+id/fragment_selection"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment_webview1"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment_webview2"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fragment_webview3"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+    </FrameLayout>
+</LinearLayout>

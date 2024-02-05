@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Delete entry with number: "/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/searchplace"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Search Place" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/searchword"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="searchword" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/SearchField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search Place or Word" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listViewToDos">
+    </ListView>
+
+</LinearLayout>
